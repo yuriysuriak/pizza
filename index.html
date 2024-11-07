@@ -1,101 +1,66 @@
 <!DOCTYPE html>
-
 <html lang="uk">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Моя улюблена піца - Маргарита</title>
-
     <link rel="stylesheet" href="style.css">
-
 </head>
-
 <body>
-            <header>
+    <header>
+        <h1>Моя улюблена піца - Маргарита</h1>
+        <nav>
+            <a href="#description">Про піцу</a>
+            <a href="#ingredients">Інгредієнти</a>
+            <a href="#order">Замовити</a>
+        </nav>
+    </header>
 
-            <h1>Моя улюблена піца - Маргарита</h1>
+    <main>
+        <section class="main-content">
 
-            <nav>
+            <div class="left">
+                <img src="https://lh3.googleusercontent.com/-F7-f2RyixFJ_0-MIGehlz7lp08CkWuy7Y64qDx8zcSrAyHA_uWVnJx1XOVAHg_qoFD7fW34aWScKlOz7tlHx8LeBxDoB64vaZ6LCKKMAPPnr8-QTpPpQVVK-xGPWFZomSVkVZXW" alt="Піца Маргарита">
+            </div>
 
-                <a href="#description">Про піцу</a>
+            <div class="right">
+                <h2 id="description">Про піцу Маргарита</h2>
+                <p>Піца Маргарита — це одна з найвідоміших і найпопулярніших італійських піц у світі. Вона стала класикою завдяки поєднанню простих, але вишуканих інгредієнтів, що створюють ідеальний смак. Її часто асоціюють із традиційною італійською кулінарією.</p>
 
-                <a href="#ingredients">Інгредієнти</a>
+                <h3>Історія піци Маргарита</h3>
+                <p>Існує легенда, що піца Маргарита була створена на честь королеви Італії Маргарити Савойської у 1889 році, коли вона відвідала Неаполь. Традиційна піца Маргарита має три кольори, які символізують національні кольори Італії: червоний (томатний соус), білий (моцарела) і зелений (базилік).</p>
 
-                <a href="#order">Замовити</a>
+                <h3>Переваги піци Маргарита</h3>
+                <p>Піца Маргарита — це не тільки смачно, але й корисно. Вона містить свіжі натуральні інгредієнти, такі як моцарела, оливкова олія та базилік, що забезпечують користь для здоров'я. Окрім того, це збалансоване поєднання вуглеводів, білків та корисних жирів.</p>
 
-            </nav>
+                <h3>Інгредієнти піци Маргарита</h3>
+                <ul>
+                    <li>Томатний соус</li>
+                    <li>Моцарела</li>
+                    <li>Свіже листя базиліку</li>
+                    <li>Оливкова олія</li>
+                    <li>Тісто для піци</li>
+                    <li>Сіль за смаком</li>
+                </ul>
+            </div>
+        </section>
 
-        </header>
+        <section id="order" class="order-section">
+            <h2>Оберіть розмір піци</h2>
+            <label>
+                <input type="radio" name="size" value="30"> 30 см
+            </label>
+            <label>
+                <input type="radio" name="size" value="45"> 45 см
+            </label>
+            <br>
+            <button type="button">Замовити зараз</button>
+        </section>
+    </main>
 
-        <!-- Main Section with Two Columns -->
-
-        <main>
-
-            <section class="main-content">
-
-                <!-- Left Side: Pizza Image -->
-
-                <div class="left">
-
-                    <img src="https://lh3.googleusercontent.com/-F7-f2RyixFJ_0-MIGehlz7lp08CkWuy7Y64qDx8zcSrAyHA_uWVnJx1XOVAHg_qoFD7fW34aWScKlOz7tlHx8LeBxDoB64vaZ6LCKKMAPPnr8-QTpPpQVVK-xGPWFZomSVkVZXW" alt="Піца Маргарита">
-
-                </div>
-
-                
-
-                <!-- Right Side: Pizza Description, History, and Ingredients -->
-                
-                            <li>Свіже листя базиліку</li>
-
-                            <li>Оливкова олія</li>
-
-                            <li>Тісто для піци</li>
-
-                            <li>Сіль за смаком</li>
-
-                        </ul>
-
-                    </section>
-
-                </div>
-
-            </section>
-
-            <!-- Pizza Size and Order Section -->
-
-            <section id="order" class="order-section">
-
-                <h2>Оберіть розмір піци</h2>
-
-                <label>
-
-                    <input type="radio" name="size" value="30"> 30 см
-
-                </label>
-
-                <label>
-
-                    <input type="radio" name="size" value="45"> 45 см
-
-                </label>
-
-                <br>
-
-                <button type="button">Замовити зараз</button>
-
-            </section>
-            </main>
-
-        <!-- Footer Section -->
-
-        <footer>
-
-    <p>&copy; By Suriak Yuriy</p>
-
-    <p>Social media: <a href="https://www.instagram.com/yurii.surk?igsh=MWluZzF6d3ppNTA5dQ==" target="_blank" class="instagram-link">Instagram</a></p>
-
-        </footer>
+    <footer>
+        <p>&copy; By Suriak Yuriy</p>
+        <p>Social media: <a href="https://www.instagram.com/yurii.surk?igsh=MWluZzF6d3ppNTA5dQ==" target="_blank" class="instagram-link">Instagram</a></p>
+    </footer>
+</body>
+</html>
