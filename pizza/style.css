@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+header {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+.description, .history, .ingredients, .preparation, .facts {
+    padding: 20px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.ingredients h2, .history h2, .preparation h2, .facts h2 {
+    color: #e74c3c;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+}
+
+.ingredients ul, .facts ul {
+    list-style-type: disc;
+    padding-left: 25px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.ingredients li, .facts li {
+    margin: 5px 0;
+    font-size: 1.1rem;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    font-size: 1rem;
+}
